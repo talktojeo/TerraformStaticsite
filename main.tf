@@ -11,7 +11,7 @@ terraform {
 }
 resource "azurerm_resource_group" "rg" {
   name     = "resgrp_web_demo19"
-  location = "uksouth"
+  location = "westus2"
 }
 
 
