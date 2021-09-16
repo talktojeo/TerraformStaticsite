@@ -12,4 +12,4 @@ provider "azurerm" {
 resource "azurerm_resource_group" "terr_resgroup1" {
   name = "res_group758567"
   location = "uksouth"
-}
+} 
