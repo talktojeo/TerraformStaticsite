@@ -1,4 +1,4 @@
-# Terratutorial1
+# Terraform Tutorial Static web
 Script : Terraform Tutorial 
 Description : This is for a workflow 
 Date: 16/09/2021
