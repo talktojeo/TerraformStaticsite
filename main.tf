@@ -1,14 +1,7 @@
 provider "azurerm" {
   features {}
 }
-terraform {
-  backend "azurerm" {
-    resource_group_name  = "res_terraf_statemanage"
-    storage_account_name = "terrastatemangem99"
-    container_name       = "tfstate"
-    key                  = "terraform.tfstate"
-  }
-}
+
 resource "azurerm_resource_group" "rg" {
   name     = "resgrp_web_demo19"
   location = "westus2"
